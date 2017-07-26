@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import Container from './Container';
+import React, { Component } from 'react'
+
+import Container from './Container'
 
 export default class SortableSimple extends Component {
   render() {
@@ -13,6 +14,6 @@ export default class SortableSimple extends Component {
         </p>
         <Container />
       </div>
-    );
+    )
   }
 }
